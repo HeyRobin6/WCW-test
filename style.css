@@ -1,0 +1,112 @@
+
+.container {
+    display: flex;
+    width: 97px;
+}
+
+.flex-child {
+    flex: 1;
+    border: transparent;
+    text-align: center;
+    align-items: center;
+}  
+
+.flex-child:first-child {
+    width: 150px;
+    height: 150px;
+    position: relative;
+
+} 
+
+/*Counter*/
+
+
+.counter-container {
+    padding: 19px 0;
+}
+
+.fa-square-minus {
+    color: #37352f;
+  }
+
+  .fa-square-plus {
+    color: #37352f;
+  }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #37352f;
+}
+
+#counter-text {
+    font-size: 25px;
+    margin-top: 7px;
+    margin-bottom: 1px;
+}
+
+#goal-counter {
+    font-size: 7px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    color: #a4a4a4;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+i {
+    width: 100%;
+    color: var(--fa-primary-color);
+}
+
+
+/*Bottle
+
+    /*bottle image*/
+    .bottle {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: transparent;
+    }
+
+    /*Progress bar*/
+    .overlay1 {
+        width:80%;
+        height:60%;
+        background: #E1F1FF;
+        margin-left: 5px;
+        margin-top: 42px;
+        z-index: 2;
+        position: absolute;
+        
+    }
+
+    #waves-container {
+        margin-top: px;
+        background-color: transparent;
+        margin-left: 5px;
+        width:80%;
+        z-index: 3;
+        position: absolute;
+    }
+
+    /*bottle outline*/
+    .overlay { 
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color:transparent;
+        position:absolute;
+        z-index: 4;
+    }
+
+
+    /*bottle images*/
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
